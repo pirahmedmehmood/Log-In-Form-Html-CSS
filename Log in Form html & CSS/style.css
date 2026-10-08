@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    max-width: 800px;
+    min-width: 300px;
+    
+}
+body{
+    background-color: rgb(174, 222, 238);
+}
+div{
+    border-radius: 10px;
+    align-items: center;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 400px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 3px 5px 15px;
+
+}
+div>legend{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+form{
+    width: 100%;
+    height: 100%;
+    margin: 25px 25px 10px 25px;
+}
+.log{
+     font-weight: 800;
+     font-size: 25px;
+     text-align: center;
+}
+
+    
+#name{
+    padding-left: 10px;
+    text-align: left;
+    border-radius: 8px;
+    width: 500px;
+    height:45px;
+    line-height: 2px;
+    margin: 5px;
+    font-size: 16px;
+
+   
+}
+#name:focus{
+    outline-color: rgb(0, 191, 255);
+   box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 10px 5px;
+}
+#password{
+    padding-left: 10px;
+    text-align: left;
+    line-height: 15px;
+    display: block;
+    border-radius: 8px;
+    width: 500px;
+    height: 45px;
+    margin: 5px;
+    font-size: 16px;
+    
+}
+#password:focus{
+    outline-color:rgb(0, 191, 255) ;
+     box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+}
+
+label:active{
+    border-color: rgb(0, 191, 255);
+}
+button{
+    background-color:  rgb(57, 190, 235);
+    color: white;
+    width: 500px;
+    height: 45px;
+    border-style: none;
+    border-radius: 8px;
+    line-height: 15px;
+    margin: 10px 5px 5px 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover{
+    background-color: rgb(89, 198, 235) ;
+}
+button:active{
+    box-shadow: rgba(0, 0, 0, 0.35) 3px 5px 15px;
+}
+div>input>::placeholder{
+    align-items: center;
+}
+a{
+    color: rgb(0, 191, 255);
+    font-weight: 700px;
+    font-size: 17px;
+    margin: 100px 3px 3px 180px;
+    
+}
+a:hover{
+    color: darkblue;
+    
+}
+fieldset{
+    border-radius: 20px;
+    margin: 50px 0px 50px 0px;
+}
